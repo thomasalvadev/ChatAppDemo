@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/gray"
+                android:clickable="true">
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="チャット"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen20" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/dimen10"
+        android:background="@color/transparent"
+        android:paddingLeft="@dimen/dimen5"
+        android:paddingRight="@dimen/dimen5"
+        android:src="@mipmap/arrow_left_white_48dp" />
+</RelativeLayout>

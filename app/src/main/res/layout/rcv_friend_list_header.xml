@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exp_parent_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/exp_parent_content_wrapper"
+        android:background="@drawable/flf_selector_header"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/exp_indication_arrow"
+            android:src="@drawable/flf_rcv_ic_right_arrow"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_width="12dp"
+            android:layout_height="12dp" />
+
+        <TextView
+            android:id="@+id/exp_parent_section_title"
+            android:layout_toRightOf="@+id/exp_indication_arrow"
+            android:text="許可待ち"
+            android:layout_marginLeft="8dp"
+            android:textColor="#858585"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+        <import type="ominext.com.echo.adapter.ViewBindingAdapter"/>
+        <variable
+            name="post"
+            type="ominext.com.echo.model.timeline.Post"/>
+        <variable
+            name="handlers"
+            type="ominext.com.echo.adapter.RecyclerViewAdapter.Handlers"/>
+    </data>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        >
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/dimen10"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/height_avatar"
+                android:id="@+id/img_avatar_user"
+                app:civ_border_width="0.5dp"
+                app:civ_border_color="@color/black_1"
+                app:imageUrl="@{post.user.avatar}"
+                app:error="@{@drawable/ic_avatar_placeholder}"
+                android:onClick="@{(v)->handlers.onAvatarClick(post)}"
+                android:layout_height="@dimen/height_avatar" />
+
+            <TextView
+                android:id="@+id/txt_time_create"
+                android:text="@{post.createdAt}"
+                android:layout_toRightOf="@+id/img_avatar_user"
+                android:textColor="@color/black_1"
+                android:textSize="@dimen/text_size_normal"
+                android:layout_marginLeft="@dimen/dimen10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_name_user"
+                android:text="@{post.user.nickname?? post.user.name}"
+                android:textSize="@dimen/text_size_normal"
+                android:layout_marginLeft="@dimen/dimen10"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/img_avatar_user"
+                android:layout_below="@+id/txt_time_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:id="@+id/rlt_down"
+                android:layout_width="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="25dp">
+
+                <ImageView
+                    android:id="@+id/img_down"
+                    android:layout_width="20dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_keyboard_arrow_down_black_36dp"
+                    android:layout_height="15dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/img_avatar_user"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblMessenger"
+                android:orientation="vertical">
+
+                <at.blogc.android.views.ExpandableTextView
+                    android:id="@+id/expandableTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{post.content}"
+                    android:textSize="@dimen/text_size_normal"
+                    android:ellipsize="end"
+                    android:autoLink="web"
+                    android:textColorLink="@color/gray"
+                    android:textColor="@color/black"
+                    app:animation_duration="1000"/>
+
+                <TextView
+                    android:id="@+id/txtReadViews"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:paddingLeft="@dimen/dimen5"
+                    android:paddingRight="@dimen/dimen5"
+                    android:padding="@dimen/dimen3"
+                    android:visibility="gone"
+                    android:background="@drawable/shape_dark_blue_radius_corner"
+                    android:textColor="@color/white"
+                    android:text="@string/read_more"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_below="@+id/lblMessenger"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rlt1"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_weight="0"
+                    android:layout_below="@+id/rcv_list"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/btn_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@mipmap/comment_white"
+                        android:background="@drawable/shape_dark_blue_radius_corner"
+                        android:enabled="true"
+                        android:paddingLeft="@dimen/padding_left_right_small"
+                        android:paddingRight="@dimen/padding_left_right_small"
+                        android:paddingTop="@dimen/padding_text_view_small"
+                        android:paddingBottom="@dimen/padding_text_view_small"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/comment"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/text_color_white_gray_selector"
+                        android:textSize="@dimen/text_size_like_comment" />
+
+                    <TextView
+                        android:id="@+id/btn_liked_users"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toLeftOf="@+id/btn_comment"
+                        android:layout_alignBottom="@+id/btn_comment"
+                        android:layout_marginRight="@dimen/margin_min"
+                        android:drawableLeft="@mipmap/like_white"
+                        android:background="@drawable/shape_dark_blue_radius_corner"
+                        android:enabled="true"
+                        android:paddingLeft="@dimen/padding_left_right_small"
+                        android:paddingRight="@dimen/padding_left_right_small"
+                        android:paddingTop="@dimen/padding_text_view_small"
+                        android:paddingBottom="@dimen/padding_text_view_small"
+                        android:text="@string/liked_users"
+                        android:textAlignment="center"
+                        android:textColor="@drawable/text_color_white_gray_selector"
+                        android:textSize="@dimen/text_size_like_comment" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <View
+            android:background="@color/black_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+</layout>

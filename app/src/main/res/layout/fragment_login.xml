@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="true"
+    android:paddingLeft="@dimen/_31sdp"
+    android:paddingRight="@dimen/_31sdp">
+
+    <ImageView
+        android:id="@+id/tv_title_reset_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_31sdp"
+        android:src="@drawable/logo_login" />
+
+    <AutoCompleteTextView
+        android:id="@+id/et_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title_reset_password"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:hint="@string/login_id"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black_text"
+        android:textColorHint="@color/gray_2"
+        android:textSize="@dimen/_11sdp"
+        android:dropDownHeight="@dimen/_85sdp"
+        >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_user_name"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/black_text"
+        android:textColorHint="@color/gray_2"
+        android:textSize="@dimen/_11sdp" />
+
+    <TextView
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tv_forgot_password"
+        android:layout_alignLeft="@+id/tv_forgot_password"
+        android:layout_alignRight="@+id/tv_forgot_password"
+        android:layout_alignStart="@+id/tv_forgot_password"
+        android:layout_below="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:background="@color/gray_button"
+        android:paddingBottom="@dimen/_11sdp"
+        android:paddingTop="@dimen/_11sdp"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@drawable/text_color_white_gray_selector"
+        android:textSize="@dimen/_11sdp" />
+
+    <TextView
+        android:id="@+id/tv_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tv_forgot_password"
+        android:layout_alignLeft="@+id/tv_forgot_password"
+        android:layout_alignRight="@+id/tv_forgot_password"
+        android:layout_alignStart="@+id/tv_forgot_password"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_27sdp"
+        android:enabled="true"
+        android:paddingBottom="@dimen/_11sdp"
+        android:paddingTop="@dimen/_11sdp"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@drawable/text_color_black_gray_selector"
+        android:textSize="@dimen/_11sdp" />
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_sign_up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:enabled="true"
+        android:paddingBottom="@dimen/_11sdp"
+        android:paddingTop="@dimen/_11sdp"
+        android:paddingLeft="@dimen/_31sdp"
+        android:paddingRight="@dimen/_31sdp"
+        android:text="@string/forgot_password"
+        android:textAlignment="center"
+        android:textColor="@drawable/text_color_black_gray_selector"
+        android:textSize="@dimen/_11sdp" />
+
+</RelativeLayout>

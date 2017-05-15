@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_min">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_user_avatar"
+            android:layout_width="@dimen/height_avatar"
+            app:civ_border_width="0.5dp"
+            app:civ_border_color="@color/black_1"
+            android:layout_height="@dimen/width_avatar" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_normal"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/padding_min" />
+
+        <TextView
+            android:id="@id/exp_section_notification_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:text="(99)"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_select_item"/>
+</LinearLayout>

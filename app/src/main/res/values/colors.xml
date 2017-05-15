@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#1abf9a</color>
+    <color name="colorPrimary">#00C09C</color>
+    <color name="colorPrimaryDark">#00C09C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_1">#BBBBBB</color>
+    <color name="black_5">#555555</color>
+    <color name="yellow">#FF9900</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="dark_gray">#2F3544</color>
+    <color name="dark_gray_button">#384155</color>
+    <color name="gray_button">#AEB9D3</color>
+    <color name="red_color">#FF0000</color>
+    <color name="colorRed">#C00B04</color>
+    <color name="seafoam">#ffc6f9e5</color>
+    <color name="chartreuse">#ffb6e9b5</color>
+    <color name="emerald">#ffa6d9b5</color>
+    <color name="bluegrass">#ff96c9b5</color>
+    <color name="turquoise">#ff86b9b5</color>
+    <color name="slate">#ff76a9b5</color>
+    <color name="color_f9f9f9">#f9f9f9</color>
+    <color name="color_374256">#374256</color>
+    <color name="color_81d8d1">#81d8d1</color>
+    <color name="light_gray">#4f81bd</color>
+    <color name="gray_text">#919191</color>
+    <color name="black_text">#515151</color>
+    <color name="boder_bottom_tab">#cccccc</color>
+    <color name="blue_text">#3800F8</color>
+    <color name="light_blue_text">#2F75FA</color>
+    <color name="dialog_blue_text">#0078ff</color>
+    <color name="tap_bar_blue_text">#0078ff</color>
+    <color name="boder_bottom_boxmsg">#cccccc</color>
+    <color name="color_dce4ef">#dce4ef</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_link_2980b9">#2980b9</color>
+    <color name="color_80333333">#80333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="colorD8d8d8">#d8d8d8</color>
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+    <color name="bgr_top_show">#26000000</color>
+    <color name="bgr_dialog_showimage">#B3000000</color>
+    <color name="green">#00C09C</color>
+    <color name="green2">#FFA2D1C8</color>
+    <color name="rounded_image_border_color">#cecece</color>
+    <color name="border_gray_cccccc">#cccccc</color>
+    <color name="color_24283d">#24283d</color>
+    <color name="white_background">#F7F6F5</color>
+    <color name="color_select_item">#D9D9D9</color>
+    <color name="light_yellow">#F2EEE5</color>
+    <color name="orange">#EB6525</color>
+    <color name="color_afb6bf">#afb6bf</color>
+    <array name="default_colors">
+        <item>#ff4000</item>
+        <item>#ff4000</item>
+        <item>#ff8000</item>
+        <item>#ffbf00</item>
+        <item>#ffff00</item>
+        <item>#bfff00</item>
+        <item>#80ff00</item>
+        <item>#40ff00</item>
+        <item>#00ff00</item>
+        <item>#00ff40</item>
+        <item>#00ff80</item>
+        <item>#00ffbf</item>
+        <item>#00ffff</item>
+        <item>#00bfff</item>
+        <item>#0080ff</item>
+        <item>#0040ff</item>
+        <item>#0000ff</item>
+        <item>#4000ff</item>
+        <item>#8000ff</item>
+        <item>#bf00ff</item>
+        <item>#ff00ff</item>
+        <item>#ff00bf</item>
+        <item>#ff0080</item>
+        <item>#ff0040</item>
+        <item>#ff0000</item>
+    </array>
+    <array name="material_colors">
+        <item>#F44336</item>
+        <item>#9C27B0</item>
+        <item>#3F51B5</item>
+        <item>#03A9F4</item>
+        <item>#009688</item>
+        <item>#8BC34A</item>
+        <item>#FFEB3B</item>
+        <item>#FF9800</item>
+        <item>#795548</item>
+        <item>#607D8B</item>
+    </array>
+    <color name="black_overlay">#66000000</color>
+    <color name="color_dce4ee">#dce4ee</color>
+</resources>

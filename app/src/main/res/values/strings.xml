@@ -1,0 +1,411 @@
+<resources>
+    <string name="app_name">Loop</string>
+    <string name="db_name">echo.realm</string>
+    <string name="network_connected">Network is connect</string>
+    <string name="text_permissons_rejected">permission(s) were previously rejected</string>
+    <string name="text_allow_to_again">Allow to Ask Again</string>
+    <string name="text_permissons_granted">Permission(s) has been granted!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reset_button">Reset</string>
+    <string name="text_send_white_broard">Save</string>
+
+    <!--chat-->
+
+    <string name="draw_chat_top_get">Whiteboard in use</string>
+    <string name="draw_chat_bottom_get"></string>
+    <string name="draw_chat_top_send">Whiteboard in use</string>
+    <string name="draw_chat_bottom_send">Long push to cancel drawing</string>
+    <!--Login-->
+    <string name="login">Log in</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="notification">Notification</string>
+    <string name="register">Create new account</string>
+    <string name="login_id">Log in ID</string>
+    <string name="password">Password</string>
+    <string name="nickname">Nickname</string>
+    <string name="email">E-mail</string>
+    <string name="back">Back</string>
+    <string name="c_password">Confirm password</string>
+    <string name="enter_login_id">Please enter login ID.</string>
+    <string name="enter_password">Please enter new password.</string>
+
+    <!-- RegisterActivity -->
+    <string name="error_message">Something went wrong ! Please try again later !</string>
+    <!-- <string name="no_connection_message">Please check your network connection.</string>-->
+    <string name="no_connection_message">Please check your network connection.</string>
+    <!-- <string name="no_connection_title">No connection</string>-->
+    <string name="no_connection_title">No connection</string>
+    <string name="ra_id">Your ID</string>
+    <string name="ra_password">Your Password</string>
+    <string name="ra_nickname">Nickname</string>
+    <string name="ra_email">E-mail</string>
+    <string name="ra_comment">Comment</string>
+    <string name="ra_phone_number">Phone number</string>
+    <string name="ra_terms_of_use">Terms of Service</string>
+    <string name="ra_agree">I agree with the Terms of Service</string>
+    <string name="ra_register">Register</string>
+    <string name="ra_cancel">Back</string>
+    <!--<string name="ra_validate_id_title">Login ID</string>
+    <string name="ra_validate_empty_login_id">Please enter login ID.</string>
+    <string name="ra_validate_space_and_special_characters">Login ID can not contain space or special characters.</string>
+    <string name="ra_validate_login_id_length">Please enter Login ID from 5 to 16 characters.</string>
+    <string name="ra_validate_password_title">Password</string>
+    <string name="ra_validate_empty_password">Please enter password.</string>
+    <string name="ra_validate_password_length">Please enter password from 8 to 16 characters.</string>
+    <string name="ra_validate_password_space">Password can not contain space.</string>
+    <string name="ra_validate_nickname_title">Nickname</string>
+    <string name="ra_validate_nickname_length">Please enter a maximum of 32 characters for the nickname.</string>
+    <string name="ra_validate_email_title">Wrong email format</string>
+    <string name="ra_validate_email_format">Please enter email address in right format.</string>
+    <string name="ra_successfully_title">Account registered</string>-->
+    <string name="ra_successfully_left_button_text">Check mail</string>
+    <string name="ra_successfully_right_button_text">Back</string>
+    <!-- <string name="ra_successfully_message">Your account has been registered successfully. Please check your email for activation link.</string>-->
+    <string name="ra_registration_completed_title">Registered successfully</string>
+    <string name="ra_registration_completed_message">Registered successfully\nPlease enjoy your time with Loop!</string>
+    <!--<string name="deep_link_host">ver2.loopchat.jp</string>-->
+    <!--<string name="deep_link_host">http://118.70.177.23:82/test_echochat/echochat/public</string>-->
+    <string name="deep_link_host">118.70.177.23</string>
+
+    <!--Reset Password-->
+    <string name="title_reset_password">Reset password</string>
+    <string name="explain_reset_password">We will send an URL to reset your password to your email address.</string>
+    <string name="email_address">Email address</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm password</string>
+    <string name="request_reset">Send</string>
+    <string name="reset">Send</string>
+
+    <!--TimeLine-->
+    <string name="title_time_line">Timeline</string>
+    <string name="create_new_post">New post</string>
+    <string name="liked_users">Liked users</string>
+    <string name="comment">Comment</string>
+    <string name="hide_post">Hide this post</string>
+    <string name="block_user">Hide all posts from this user</string>
+    <string name="report_post">Report</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_report_post_dialog">Please let us know more about the reported post.</string>
+    <string name="report_unsuitable">It is unpleasant.</string>
+    <string name="report_spam">It is spam</string>
+    <string name="successful_title">Success</string>
+    <string name="successful_message">Successfully !</string>
+    <string name="camera_wasnt_support">Your device does not support camera</string>
+    <string name="body_content_error">Please enter content.</string>
+    <string name="missing_arguments">Missing some arguments. </string>
+    <string name="canceled">Canceled.</string>
+    <string name="title_list_liked_users">Like</string>
+    <string name="retry">Retry</string>
+    <string name="message_confirm_hide_all_post">Hide all posts from this user?</string>
+    <string name="title_confirm_hide_all_post">Hide</string>
+    <string name="read_more">More</string>
+    <string name="less">Less</string>
+    <string name="error_data">Not data</string>
+    <string name="title_details">Timeline</string>
+    <string name="privacy_settings">Sharing setting</string>
+    <string name="public_privacy">Public</string>
+    <string name="friends_privacy">Friends</string>
+    <string name="only_me_privacy">Only Me</string>
+
+    <!--MoreFragment-->
+    <string name="title_more_fragment">Other</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="send_invitation_email">Invite friend</string>
+    <string name="log_out">Log out</string>
+    <string name="google_play_url">https://play.google.com/store/apps/details?id=</string>
+    <string name="apple_store_url">https://itunes.apple.com/us/app/loop/id1154846674?ls=1&amp;mt=8</string>
+    <string name="subject_invitation_email">Let\'s talk together in Loopchat!</string>
+    <string name="content_email">%1$s has invited you to Free voice call, free chat application "Loop" \n
+\nDownload\niPhone・iPad：\n%2$s\nAndroid:\n%3$s\n\nUsing Loop, you can not only send text messages, pictures, videos, but also can draw canvas and send them as they are!\n\n
+To become friend with %1$s , please search for this ID below:\n
+%4$s</string>
+    <string name="change_background_image">Background</string>
+    <string name="change_background_image_title">Change background</string>
+    <string name="photography">Take picture</string>
+    <string name="library">Library</string>
+    <!--Sound-->
+    <string name="sound">Sound</string>
+    <string name="notification_sound">Notification sound</string>
+    <string name="sound_default">Default</string>
+    <string name="sound_chime_1">Chime 1</string>
+    <string name="sound_chime_2">Chime 2</string>
+    <string name="sound_spring">Spring</string>
+    <string name="sound_chance">Chance</string>
+    <string name="sound_flashing">Flashing</string>
+    <string name="sound_limp">Limp</string>
+
+    <!--Edit Profile-->
+    <string name="edit_profile_title">Edit profile</string>
+    <string name="profile_title">Profile</string>
+    <string name="block">Block</string>
+    <string name="change_avatar">Avatar</string>
+    <string name="id">ID</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phone_number">Phone number</string>
+    <string name="dscription">Description</string>
+    <string name="update_profile">Save</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_your_password">Change your password</string>
+    <string name="current_password">Current password</string>
+    <string name="new_change_password">New password</string>
+    <string name="confirm_new_change_password">Confirm new password</string>
+    <string name="notify_enter_current_password">Please enter password.</string>
+    <string name="notify_enter_new_password">Please enter new password.</string>
+    <string name="notify_password_confirm_mismatched">New password and confirm new password do not match.</string>
+    <string name="change_avatar_title">Change Avatar\nChoose</string>
+    <string name="take_picture_button">Take picture</string>
+    <string name="choose_picture_button">Select from album</string>
+    <string name="title_nothing_has_changed">Save failed</string>
+    <string name="message_nothing_has_changed">You didn\'t edit any information, there is nothing to save.</string>
+    <string name="un_friend">Delete from friendlist</string>
+    <string name="timeline">Timeline</string>
+    <string name="add_friend">Request friend</string>
+    <string name="choise">Select</string>
+    <string name="camera">Take picture</string>
+    <string name="video">Record video</string>
+
+    <string name="title_nickname_too_long">Nickname</string>
+    <string name="message_nickname_too_long">Please enter nickname no longer than 32 characters.</string>
+    <string name="enter_phone_number">Please enter phone number.</string>
+
+    <!--Dialog-->
+    <string name="notify_new_password_mismatched">New password and confirm new password do not match.</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <!-- <string name="error">Error</string>-->
+    <!--  <string name="notify_new_password_mismatched">New passwords mismatched.</string>-->
+    <string name="enter_new_password">Please enter new password.</string>
+    <string name="txtHintChat">New message</string>
+    <string name="txt_send_chat">Send</string>
+
+    <!-- begin @FriendListFragment -->
+    <string name="flf_title">Chat</string>
+    <string name="flf_add_friend">+ Friend</string>
+    <string name="flf_create_group">+ Group</string>
+    <string name="flf_sort">Display order</string>
+    <string name="flf_pending">Waiting</string>
+    <string name="flf_requesting">Requesting</string>
+    <string name="flf_group">Group</string>
+    <string name="flf_friend">Friend</string>
+    <string name="flf_blocked">Block list</string>
+    <string name="flf_block_user">Block</string>
+    <string name="flf_accept_friend">Accept</string>
+    <string name="flf_load_more">View more</string>
+    <string name="flf_default_order">Default order</string>
+    <string name="flf_history_chat">Conversation time order</string>
+    <string name="flf_friend_time">Added time order</string>
+    <string name="flf_cancel_requesting">Cancel request</string>
+    <string name="flf_unblock">Unblock</string>
+    <string name="flf_delete">Delete</string>
+    <string name="flf_timeline">Timeline</string>
+    <string name="flf_edit">Edit</string>
+    <string name="flf_save">Save</string>
+    <string name="flf_unfriend_message">Delete this friend?</string>
+    <string name="flf_leave_room_message">Are you sure want to leave this group?</string>
+    <string name="flf_message_type_image">A image was posted</string>
+    <string name="flf_message_type_video">A video was posted</string>
+    <string name="flf_message_type_whiteboard">A white board was drawn.</string>
+    <string name="flf_id_or_phone_number">ID or phone number</string>
+    <string name="flf_qr_code">QR code</string>
+    <string name="flf_nearby_friends">Find nearby friends</string>
+    <string name="flf_album_was_created">A new album was created.</string>
+    <string name="flf_sent_a_sticker">Sent a sticker</string>
+    <string name="flf_join_room" formatted="false">%s invited %s to the group.</string>
+    <string name="flf_remove_member" formatted="false">%s deleted %s from the group.</string>
+    <string name="flf_leave_room">%s left the group.</string>
+    <!-- end @FriendListFragment -->
+    <string name="user_action_typing">is typing</string>
+    <!--  <string name="message_edit">編集</string>-->
+    <!--Talk Fragment-->
+    <string name="remove_my_self">「Deleted message」</string>
+    <string name="remove_friend">「Deleted message」</string>
+    <string name="typing_editing">「Editing...」</string>
+    <string name="typing">「...Typing...」</string>
+    <string name="message_edit">Edit message</string>
+    <string name="message_delete">Delete</string>
+    <string name="message_copy">Copy</string>
+    <string name="edited_message">Edited</string>
+    <string name="sent_message">Sent</string>
+    <string name="seen_message">Read</string>
+    <string name="free_call">Free call</string>
+    <string name="note">Note</string>
+    <string name="album">Album</string>
+
+    <!--Note-->
+    <string name="title_note">Note</string>
+    <string name="edit_note">Edit note</string>
+    <string name="delete_note">Delete note</string>
+    <string name="content_confirm_delete_note">Are you sure to delete this Note?</string>
+    <string name="total">Total</string>
+
+    <!--Tab menu Bottom-->
+    <string name="tabs1">Chat</string>
+    <string name="tabs2">White board</string>
+    <string name="tabs3">Timeline</string>
+    <string name="tabs4">Other</string>
+    <!-- GroupDetailActivity -->
+    <string name="gda_save">Save</string>
+    <string name="gda_create_group">+ Group</string>
+    <string name="gda_edit_group">Edit group</string>
+    <string name="gda_change_avatar">Change avatar</string>
+    <string name="gda_group_name">Group name</string>
+    <string name="gda_members">Friend</string>
+    <string name="gda_add_member">Add friend</string>
+    <string name="gda_group_name_empty">Please enter group name</string>
+    <string name="title_activity_play_video">PlayVideoActivity</string>
+    <string name="gda_is_friend">Your friend</string>
+    <string name="gda_can_not_save_title">Save failed</string>
+    <string name="gda_can_not_save_message">You didn\'t edit any information, there is nothing to save.</string>
+    <string name="gda_remove_member_confirmation">Are you sure to delete this member?</string>
+
+    <string name="UnBlock">Unblock</string>
+    <string name="Blocked">Block</string>
+    <string name="CancelRequesting">Cancel request</string>
+    <string name="UnFriend">Delete from friendlist</string>
+    <string name="AddFriend">Request friend</string>
+    <string name="IsFriend">Your friend</string>
+    <string name="AcceptFriend">Accept</string>
+    <string name="editing_message">Editing...</string>
+    <!--"GroupList" = "グループ";-->
+    <!--"FriendList" = "友達";-->
+    <!--"BlockList" = "ブロックリスト";-->
+    <!-- begin SearchingFriendActivity -->
+    <string name="sfa_invite_friends">Invite friends</string>
+    <string name="sfa_search">Search for friends to add</string>
+    <string name="sfa_invite">Invite</string>
+    <!-- end SearchingFriendActivity -->
+
+    <!-- begin SearchingUserActivity -->
+    <string name="sua_search_by_id_or_name">ID or nickname</string>
+    <string name="sua_search">Search</string>
+    <string name="sua_no_valid_result">No result matched your keyword.</string>
+    <!-- end SearchingUserActivity -->
+
+    <!--Gourmet-->
+    <string name="gourmet">Gourmet</string>
+    <string name="gourmet_title">Loop Gourmet</string>
+    <string name="select_food_genre">Select food genre</string>
+    <string name="select_special_scene">Select special scene</string>
+    <string name="select_area">Select area</string>
+    <string name="select_area1">Select area 1</string>
+    <string name="select_area2">Select area 2</string>
+    <string name="select_area3">Select area 3</string>
+    <string name="search_by_free_word">Search by free word</string>
+    <string name="search_by_area">Search by area</string>
+    <string name="search_for_special_scene">Search for special scene</string>
+    <string name="hint_search_keyword">Shop name, genre, keyword</string>
+    <string name="search">Search</string>
+    <string name="title_select_genre">Select genre (up to 3)</string>
+    <string name="msg_dialog_select_genre">Please select a genre</string>
+    <string name="title_dialog_select_genre">Genre</string>
+    <string name="write_review">Write review</string>
+    <string name="special_scene">Special Scene</string>
+    <string name="msg_not_enough_search_conditions">Please choose at least 1 condition.</string>
+    <string name="msg_not_enough_search_conditions_special_scene">Please choose both special category and area.</string>
+    <string name="view_reviews">View reviews</string>
+    <string name="rate">Rate</string>
+    <string name="tap_to_choose">Tap to choose</string>
+    <string name="review_of">\'s review</string>
+    <string name="to_confirm_screen">To confirm screen</string>
+    <string name="msg_rate_review_not_set">Please rate.</string>
+    <string name="post">Post</string>
+    <string name="msg_comment_review_empty">Please write your review.</string>
+    <string name="edit">Edit</string>
+    <string name="post_review">Post</string>
+    <string name="notify_confirm_review_shop">Are you sure to post this content?</string>
+    <string name="notify_review_shop_success">Thank you! We will inform you if your review is published.</string>
+    <string name="return_to_shop_list">Return to shop list</string>
+    <string name="select_place_holder">Select</string>
+
+    <string name="tf_show_stickers">Sticker</string>
+    <string name="icon_camare">Take picture</string>
+    <string name="icon_keyborad">Keyboard</string>
+    <string name="icon_photo">Choose picture</string>
+    <string name="icon_white_board">Whiteboard</string>
+    <string name="icon_white_board_list">Whiteboard list</string>
+    <string name="like">Like</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="save_success">Success</string>
+
+    <string name="wb_edit">Edit</string>
+    <string name="wb_no_data">There is no created whiteboard.</string>
+    <string name="wb_add">New</string>
+    <string name="wb_title">Whiteboard</string>
+    <string name="wb_title_confirm_delete">Erase all</string>
+    <string name="wb_content_confirm_delete">Are you ok？</string>
+
+    <string name="validation_over_file_size">Attachment file\'s size crossed limitation.</string>
+    <string name="validation_over_video_duration">Please do not exceed 1 minute</string>
+    <string name="spam">It is spam</string>
+    <string name="content_not_appropritate">It is unpleasant.</string>
+    <string name="dr_title">Whiteboard</string>
+
+    <string name="title_activity_show_image">ShowImageActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="permission_rationale">\"Storage permission is needed for fetching images from Gallery.\"</string>
+    <string name="image_selected">Selected</string>
+    <string name="wb_title_confirm_save">Save</string>
+    <string name="wb_content_confirm_save">Are you sure want to save?</string>
+    <string name="wb_title_save_success">Success</string>
+    <string name="wb_content_save_success">Successfully !</string>
+    <string name="down_load">Download</string>
+    <string name="wb_can_not_load_image">Image can not load</string>
+    <string name="wb_chat_send">Send</string>
+    <string name="app_name_main">Loop</string>
+    <string name="tl_edit_post">Edit post</string>
+    <string name="tl_delete_post">Delete post</string>
+    <string name="tl_title_confirm_delete">Delete</string>
+    <string name="lt_content_confirm_delete">Are you sure to delete this post?</string>
+
+    <array name="colors">
+        <item>#3F51B5</item>
+        <item>#303F9F</item>
+        <item>#FF4081</item>
+    </array>
+
+    <!-- begin voice call -->
+    <string name="voice_call_outgoing_call">Calling...</string>
+    <string name="voice_call_incoming_call">Incoming call...</string>
+    <string name="voice_call_new_outgoing_call_confirmation">Start free voice call?</string>
+    <string name="voice_call_can_not_call">Can not call %s at the moment</string>
+    <string name="voice_call_busy">Phone busy</string>
+    <string name="voice_call_declined">No answer</string>
+    <string name="voice_call_missed">Missed</string>
+    <string name="voice_call_cancelled">Cancelled</string>
+    <string name="voice_call_show_on_friend_list">Voice call %s</string>
+    <!-- end voice call -->
+
+    <!-- begin ChatOptionsMenu -->
+    <string name="tf_free_call">Free call</string>
+    <string name="tf_note_list">Note</string>
+    <string name="tf_album_list">Album</string>
+    <!-- end ChatOptionsMenu -->
+
+    <!-- begin AlbumsActivity -->
+    <string name="aa_title">Album</string>
+    <string name="aa_quantity">%s albums</string>
+    <string name="aa_create_album">Create album</string>
+    <!-- end AlbumsActivity -->
+
+    <!-- begin AlbumDetailActivity -->
+    <string name="ada_rename_album">Change album name</string>
+    <string name="ada_add_images">Add picture</string>
+    <string name="ada_delete_album">Delete album</string>
+    <!-- end AlbumDetailActivity -->
+
+    <!-- begin AlbumPreviewActivity -->
+    <string name="apa_create_album">Create album</string>
+    <string name="apa_album_name">Album name</string>
+    <string name="apa_change_album_name">Change album name</string>
+    <!-- end AlbumPreviewActivity -->
+
+    <!-- begin FindingNearbyFriendsActivity -->
+    <string name="fnf_find_nearby_friends">Search for friends near you.</string>
+    <string name="fnf_prerequisite">The person you are looking for must also open this screen.</string>
+    <string name="fnf_title">Find nearby friends</string>
+    <!-- end FindingNearbyFriendsActivity -->
+</resources>

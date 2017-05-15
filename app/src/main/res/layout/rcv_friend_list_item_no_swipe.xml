@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/exp_container"
+    android:background="@drawable/flf_selector_list_item"
+    android:padding="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_avatar"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        app:riv_mutate_background="true"
+        android:src="@drawable/ic_avatar_placeholder"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="20dp"
+        app:riv_border_width="1dp"
+        app:riv_border_color="#cecece"
+        app:riv_oval="false"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_avatar"
+        android:layout_toLeftOf="@+id/extra_information"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:text="メンバーネーム"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/extra_information"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_left"
+            android:background="@drawable/flf_selector_btn_accept"
+            android:text="@string/flf_block_user"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            style="@style/FriendListButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:background="@drawable/flf_selector_btn_accept"
+            android:text="@string/flf_accept_friend"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            style="@style/FriendListButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_chat"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <include layout="@layout/toolbar_chat" />
+
+    <LinearLayout
+        android:id="@+id/frm_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rltTop"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <android.support.design.widget.CoordinatorLayout
+                        android:id="@+id/coordinatorLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.v4.widget.SwipeRefreshLayout
+                            android:id="@+id/swipeRefreshLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/messages"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scrollbarStyle="outsideOverlay"
+                                android:scrollbars="vertical" />
+                        </android.support.v4.widget.SwipeRefreshLayout>
+                    </android.support.design.widget.CoordinatorLayout>
+
+                    <ProgressBar
+                        android:id="@+id/loading_progress"
+                        style="@android:style/Widget.Holo.ProgressBar.Large"
+                        android:layout_width="60dip"
+                        android:layout_height="60dip"
+                        android:layout_centerInParent="true"
+                        android:visibility="visible" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lblTyping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/rounded_border_textview_remove"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="5dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="anh hoang"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/dimens12"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/action"
+                        style="?android:textAppearanceMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+
+                        android:paddingRight="5dp"
+                        android:singleLine="true"
+                        android:text="@string/user_action_typing"
+                        android:textColor="?android:textColorSecondary"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/typing"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <include layout="@layout/list_menu_bottom_chat_layout" />
+    </LinearLayout>
+
+</FrameLayout>

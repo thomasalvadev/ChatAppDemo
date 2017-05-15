@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimen10"
+    android:paddingTop="@dimen/dimen10">
+
+    <RelativeLayout
+        android:id="@+id/rltImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/img"
+            app:riv_corner_radius="10dip"
+            app:riv_oval="false"
+            android:layout_width="@dimen/dimen200"
+            android:layout_height="@dimen/dimen150"
+            android:padding="5dip"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/imgPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+
+            android:src="@drawable/ic_play_circle_outline_white_36dp"/>
+
+        <com.github.lzyzsd.circleprogress.DonutProgress
+            android:id="@+id/donut_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

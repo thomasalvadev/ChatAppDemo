@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:lines="1"
+            android:textColor="@color/color_666666"
+            android:textSize="@dimen/dimens12"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/img_avatar"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_avatar_placeholder"
+                    app:riv_border_color="#cecece"
+                    app:riv_border_width="1dp"
+                    app:riv_corner_radius="22dp"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="false" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lblMessLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:maxWidth="@dimen/dimen400"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rltImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/img"
+                            android:layout_width="@dimen/dimen200"
+                            android:layout_height="@dimen/dimen150"
+                            android:padding="5dip"
+                            android:scaleType="centerCrop"
+                            app:riv_corner_radius="10dip"
+                            app:riv_oval="false" />
+
+                        <ImageView
+                            android:id="@+id/imgPlay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_play_circle_outline_white_36dp" />
+
+                        <com.github.lzyzsd.circleprogress.DonutProgress
+                            xmlns:custom="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/donut_progress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:visibility="gone"
+                            custom:donut_progress="0" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lblMess"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/message_left"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/message"
+                            style="?android:textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:autoLink="web"
+                            android:clickable="true"
+                            android:layout_gravity="center"
+                            android:linksClickable="true"
+                            android:maxWidth="230dp"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:text=""
+                            android:textColor="@color/color_333333"
+                            android:textColorLink="@color/color_link_2980b9"
+                            android:textIsSelectable="false"
+                            android:textSize="@dimen/dimens14" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:lines="1"
+        android:textColor="@color/color_666666"
+        android:textSize="@dimen/dimens12"
+        android:visibility="visible" />
+</LinearLayout>

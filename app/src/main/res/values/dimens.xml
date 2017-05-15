@@ -1,0 +1,86 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dimen35">35dp</dimen>
+    <dimen name="dimen18">18dp</dimen>
+    <dimen name="dimen100">100dp</dimen>
+    <dimen name="dimen150">150dp</dimen>
+    <dimen name="dimen20">20dp</dimen>
+    <dimen name="dimen30">30dp</dimen>
+    <dimen name="dimen50">50dp</dimen>
+    <dimen name="dimen40">40dp</dimen>
+    <dimen name="dimen10">10dp</dimen>
+    <dimen name="dimen5">5dp</dimen>
+    <dimen name="dimen3">3dp</dimen>
+    <dimen name="dimen1">1dp</dimen>
+    <dimen name="dimen0.5">0.5dp</dimen>
+    <dimen name="item_offset">2dp</dimen>
+    <!--Login-->
+    <dimen name="margin_top">40dp</dimen>
+    <dimen name="padding_left_right">40dp</dimen>
+    <dimen name="padding_left_right_normal">18dp</dimen>
+    <dimen name="padding_left_right_small">10dp</dimen>
+    <dimen name="padding_text_view_large">10dp</dimen>
+    <dimen name="padding_text_view">8dp</dimen>
+    <dimen name="padding_top_bottom_text_view">14dp</dimen>
+    <dimen name="padding_text_view_small">7dp</dimen>
+
+    <!--TimeLine-->
+    <dimen name="padding_min">5dp</dimen>
+    <dimen name="padding_normal">15dp</dimen>
+    <dimen name="padding_huge">30dp</dimen>
+    <dimen name="margin_min">8dp</dimen>
+    <dimen name="margin_top_min">15dp</dimen>
+    <dimen name="height_avatar">35dp</dimen>
+    <dimen name="width_avatar">35dp</dimen>
+    <dimen name="height_ic_menu">20dp</dimen>
+    <dimen name="width_ic_menu">20dp</dimen>
+    <dimen name="padding_dialog">10dp</dimen>
+    <dimen name="height_image_post">90dp</dimen>
+    <dimen name="width_image_post">90dp</dimen>
+    <dimen name="keyboard_height">200dp</dimen>
+    <dimen name="height_image_preview">80dp</dimen>
+    <dimen name="width_image_preview">80dp</dimen>
+    <dimen name="height_ic_remove">20dp</dimen>
+    <dimen name="width_ic_remove">20dp</dimen>
+    <dimen name="width_button_comment">125dp</dimen>
+
+    <!--Profile-->
+    <dimen name="padding_item">8dp</dimen>
+    <dimen name="padding_top_dialog">20dp</dimen>
+
+    <!--Text Size-->
+    <dimen name="text_size_so_small">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_huge">20sp</dimen>
+    <dimen name="text_size_like_comment">12sp</dimen>
+    <!--Shape-->
+    <dimen name="radius">5dp</dimen>
+    <dimen name="radius_large">8dp</dimen>
+    <dimen name="txtnotify_wh">20dp</dimen>
+    <dimen name="txtnotify_size">10sp</dimen>
+    <dimen name="dimen2">2dp</dimen>
+    <dimen name="dimen9">9dp</dimen>
+    <dimen name="dimen37">37dp</dimen>
+    <dimen name="dimen15">15dp</dimen>
+    <dimen name="dimen19">19dp</dimen>
+    <dimen name="dimens14">14sp</dimen>
+    <dimen name="dimen45">45dp</dimen>
+    <dimen name="dimen400">400dp</dimen>
+    <dimen name="dimen200">200dp</dimen>
+    <dimen name="dimens12">12sp</dimen>
+    <dimen name="dimen60">60dp</dimen>
+
+    <!-- begin @FriendListFragment -->
+    <dimen name="flf_button_text_size">11sp</dimen>
+    <dimen name="flf_tooltip_max_width">112dp</dimen>
+    <dimen name="flf_tooltip_padding">0dp</dimen>
+    <dimen name="dimen250">250dp</dimen>
+    <dimen name="dimens16">16sp</dimen>
+    <!-- end @FriendListFragment -->
+    <dimen name="dimen033">0.33dp</dimen>
+    <dimen name="dimens10">10sp</dimen>
+</resources>
